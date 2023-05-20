@@ -1,0 +1,34 @@
+
+
+1. Start the application.
+2. Display the login menu.
+3. Accept the username and password from the user.
+4. Validate the username and password.
+5. If the credentials are valid, proceed to the main menu; otherwise, display an error message and repeat the login process.
+6. Display the main menu with the available options.
+7. Accept the user's choice.
+8. If the choice is to view all cameras, display the list of available cameras.
+9. If the choice is to manage "My Cameras":
+   a. Display the options for adding, removing, or viewing the user's cameras.
+   b. Accept the user's sub-choice.
+   c. Perform the corresponding operation based on the sub-choice.
+   d. If the sub-choice is to go back to the previous menu, return to the main menu.
+10. If the choice is to rent a camera:
+    a. Display the list of available cameras.
+    b. Accept the camera ID from the user.
+    c. Validate the camera ID and check if the camera is available.
+    d. If the camera is available, proceed to the next step; otherwise, display an error message and return to the main menu.
+    e. Check if the user's wallet has sufficient balance to rent the camera.
+    f. If there is insufficient balance, display an error message and return to the main menu.
+    g. Deduct the rent amount from the user's wallet balance.
+    h. Add the rented camera to the user's personal camera list.
+    i. Remove the rented camera from the list of available cameras.
+    j. Display a success message and return to the main menu.
+11. If the choice is to manage the wallet:
+    a. Display the options for viewing the balance or depositing an amount.
+    b. Accept the user's sub-choice.
+    c. Perform the corresponding operation based on the sub-choice.
+    d. If the sub-choice is to go back to the previous menu, return to the main menu.
+12. If the choice is to exit the application, end the program.
+13. Repeat steps 6-12 until the user chooses to exit the application.
+
